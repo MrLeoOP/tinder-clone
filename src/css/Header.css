@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* z-index */
+    z-index: 100;
+}
+
+.header img{
+    /* object-fit */
+    object-fit: contain; 
+    width: 60px;
+} 
