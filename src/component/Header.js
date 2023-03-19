@@ -9,7 +9,6 @@ import Logo from '../images/logo.png';
 function Header() {
   return (
     <div className='header'>
-    {/* <h2>I am header</h2> */}
     <IconButton>
         <PersonIcon fontSize = "large" className = "header__icon"/> 
     </IconButton>
@@ -18,7 +17,6 @@ function Header() {
     <IconButton>
     <ForumIcon fontSize='large' className='header__icon'/>
     </IconButton>
-    
     </div>
   )
 }

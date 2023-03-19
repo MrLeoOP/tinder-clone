@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './component/Header';
+import TinderCards from './component/TinderCards';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       {/* <h1>Lets learn MERN stack Tinder clone</h1> */}
 
       <Header/>
-      {/* <TinderCards/> */}
+      <TinderCards/>
       {/* <SwipeButtons/> */}
     </div>
   );
